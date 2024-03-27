@@ -1,0 +1,13 @@
+[package]
+name = "MessengerAppServer"
+version = "0.1.0"
+authors = ["Joshua Norris <joshua.norris52@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rusqlite = "0.17.0"
+time = "0.1.37"
+
+[dependencies.lazy_static]
+version = "1.0"
+features = ["spin_no_std"]
